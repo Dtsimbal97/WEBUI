@@ -18,10 +18,19 @@
     margin-right: 5px; /* Отступ справа */
 
     /* Отступ снизу */
-    margin-top: 62px;
+    margin-top: 80px;
     float: right;
-    padding-left: 40px;
-    padding-right: 20px;
+    padding: 10px;
+
+}
+
+.btn-auth{
+    margin-top: 8px;
+
+}
+.img-btn{
+    height: 15px;
+    width: 15px;
 
 }
 .thumb img  {
@@ -38,11 +47,12 @@
 }
 .navbar-form.navbar-left {
     float: right;
-    padding-left: 20px;
+    padding-left: 30px;
+
 
 }
 .form-group{
-    margin-left: 511px;
+    margin-left: 450px;
 }
 .h2{
     margin: 0;
@@ -76,17 +86,35 @@
 }
 
 .verticalOverflow {
-    height:600px; /* высота нашего блока */
+    height: 600px; /* высота нашего блока */
     width: 300px;
     background: rgb(235, 220, 250); /* цвет фона, белый */
     border: 1px solid #C1C1C1;
-    overflow-y: auto;
+    overflow-y: scroll;
     float: left;
     margin-top: 80px;
-    padding-right: 10px;
-    padding-left: 20px;
-    /* прокрутка по вертикали*/
+    padding: 10px;
+}
+        /* прокрутка по вертикали*/
 
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(207,60,255,0.67);
+}
+
+.fa{
+    float: right;
+    margin-top: -5px;
+    padding: 5px;
 }
 .thumbnail{
     width: 200px;
@@ -95,16 +123,17 @@
 }
 .horisontalOverflow {
     margin-top: 80px;
-    margin-right: 20px;
-    padding-right: 10px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    padding: 10px;
     height:150px;
-    width: 650px;
+    width: 620px;
     background: rgb(235, 220, 250); /* цвет фона, белый */
     border: 1px solid #C1C1C1; /* размер и цвет границы блока */
     overflow-x: auto;
+    overflow-y: visible ;
 
-    overflow-y: hidden;
-    /* прокрутка по горизонтали  */
+       /* прокрутка по горизонтали  */
 
 }
 .list-inline {
@@ -113,11 +142,19 @@
 }
 .col-md-5{
     width: 200px;
-    margin-left: 15px;
+    margin-left: 10px;
 }
 .container-fluid {
     margin-left: 20px;
     margin-right: 19px;
+}
+.text-left{
+    width: auto;
+
+}
+
+.footer-list{
+    width: 600px;
 }
 body {
     background: lavenderblush;
