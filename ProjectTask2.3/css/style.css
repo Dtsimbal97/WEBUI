@@ -1,12 +1,28 @@
 .col-md-3{
     background-color: #0c5460;
     height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.col-md-12{
-    background-color: rgb(12, 125, 96);
-    height: 70px;
-    width: 100%;
+.col-xs-2{
+    background-color: #0c5460;
+    height: auto;
+}
+header {
+    background-color: lawngreen;
+    height: 100%;
+    width: auto;
 
+
+}
+
+footer {
+    background-color: lawngreen;
+    height: auto;
+    width: auto;
+    padding: 1%;
+    position: static;
 
 }
 
@@ -15,11 +31,13 @@
     padding-top: 20px;
 }
 
+.row{
+    height: 100%;
+}
 
 h3{
 
 }
 
-.text-center{
-    padding-top: 60%;
-}
+
+
