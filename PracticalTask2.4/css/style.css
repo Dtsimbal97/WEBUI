@@ -1,9 +1,26 @@
 .pager {
     float: left;
 }
-.navbar-inner{
+footer{
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background: lavender;
+
 }
+.links{
+
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+
+}
+.footerLink{
+    padding: 5px;
+}
+
 .h4 {
     float: left;
 
@@ -16,6 +33,7 @@
     /* Рамка вокруг фотографии */
     background: rgb(235, 220, 250); /* Цвет фона */
     margin-right: 5px; /* Отступ справа */
+    height: auto;
 
     /* Отступ снизу */
     margin-top: 80px;
@@ -86,8 +104,8 @@
 }
 
 .verticalOverflow {
-    height: 600px; /* высота нашего блока */
-    width: 300px;
+    height: calc(100vh + 165px); /* высота нашего блока */
+    width: auto;
     background: rgb(235, 220, 250); /* цвет фона, белый */
     border: 1px solid #C1C1C1;
     overflow-y: scroll;
@@ -111,26 +129,29 @@
     -webkit-box-shadow: inset 0 0 6px rgba(207,60,255,0.67);
 }
 
-.fa{
-    float: right;
-    margin-top: -5px;
-    padding: 5px;
+.icons{
+    height: 29px;
+    line-height:29px;
 }
 .thumbnail{
     width: 200px;
     height: 200px;
 
 }
+.content{
+   margin-left: 30px;
+
+
+}
 .horisontalOverflow {
     margin-top: 80px;
     margin-bottom: 20px;
-    margin-left: 10px;
+    margin-left: 0;
     padding: 10px;
-    height:150px;
-    width: 620px;
+    height:auto;
+    width: auto;
     background: rgb(235, 220, 250); /* цвет фона, белый */
     border: 1px solid #C1C1C1; /* размер и цвет границы блока */
-    overflow-x: auto;
     overflow-y: visible ;
 
        /* прокрутка по горизонтали  */
@@ -140,16 +161,13 @@
     width: 1308px;
 
 }
-.col-md-5{
-    width: 200px;
-    margin-left: 10px;
-}
-.container-fluid {
+
+content {
     margin-left: 20px;
     margin-right: 19px;
 }
 .text-left{
-    width: auto;
+
 
 }
 
@@ -163,12 +181,8 @@ body {
     font-size: 12px;
 }
 
-#container {
-    background: rgba(161, 171, 152, 0.54);
-    margin: 0 auto;
-    width: 1000px;
-    height: 600px;
-}
+
+
 
 #header {
     background: #66CCCC;
